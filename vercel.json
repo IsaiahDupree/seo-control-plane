@@ -1,0 +1,16 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/refresh",
+      "schedule": "0 3 * * *"
+    },
+    {
+      "path": "/api/cron/monthly-reset",
+      "schedule": "0 0 1 * *"
+    },
+    {
+      "path": "/api/cron/gsc-pull",
+      "schedule": "0 4 * * 1"
+    }
+  ]
+}
